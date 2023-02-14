@@ -1,0 +1,15 @@
+post:
+  description: Get example by id
+  parameters:
+    - name: id
+      in: query
+      required: true
+      schema:
+        $ref: "./components.yaml"
+  responses:
+    "200":
+      description: Example retrieved
+      content:
+        application/json:
+          schema:
+            $ref: "./components.yaml"

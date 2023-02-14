@@ -1,0 +1,13 @@
+post:
+  description: Get example by id
+  parameters:
+    - name: id
+      in: query
+      required: true
+      schema:
+  responses:
+    "200":
+      description: Example retrieved
+      content:
+        application/json:
+          schema:
