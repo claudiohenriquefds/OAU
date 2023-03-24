@@ -1,4 +1,4 @@
 /example:
-  $ref: "./Example/example.yaml"
+  $ref: ./Example/example.yaml
 /test:
-  $ref: "./Teste/test.yaml"
+  $ref: ./Teste/test.yaml

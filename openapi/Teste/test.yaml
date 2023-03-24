@@ -5,11 +5,33 @@ post:
       in: query
       required: true
       schema:
-        $ref: "./components.yaml"
+        type: object
+        required:
+          - login
+          - password
+          - uuuid_session
+        properties:
+          login:
+            type: string
+          password:
+            type: string
+          uuid_session:
+            type: string
   responses:
     "200":
       description: Example retrieved
       content:
         application/json:
           schema:
-            $ref: "./components.yaml"
+            type: object
+            required:
+              - login
+              - password
+              - uuuid_session
+            properties:
+              login:
+                type: string
+              password:
+                type: string
+              uuid_session:
+                type: string

@@ -4,4 +4,4 @@ info:
   version: 1.0.0
 
 paths:
-  $ref: "./paths.yaml"
+  $ref: ./paths.yaml
